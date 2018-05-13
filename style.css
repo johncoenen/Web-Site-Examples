@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {  
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+p {
+  font-size: 22px;  
+}
+
+.jumbotron {  
+  color: whitesmoke;
+  
+  background:
+  linear-gradient(
+    rgba(32, 84, 147, 0.5),
+    rgba(253, 184, 30, 0.5),
+    rgba(32, 84, 147, 0.5)    
+    ),
+  url('http://res.cloudinary.com/dfw7rvsrn/image/upload/v1520511323/mirko-blicke-456085-unsplash_jq8wtc.jpg');
+  
+  background-size: cover;
+  height: 100vh;
+}
+
