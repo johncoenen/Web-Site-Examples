@@ -21,8 +21,9 @@ p {
   background:
   linear-gradient(
     rgba(32, 84, 147, 0.5),
-    rgba(253, 184, 30, 0.5),
-    rgba(32, 84, 147, 0.5)    
+  rgba(32, 84, 147, 0.5),
+  rgba(253, 184, 30, 0.25)
+        
     ),
   url('http://res.cloudinary.com/dfw7rvsrn/image/upload/v1520511323/mirko-blicke-456085-unsplash_jq8wtc.jpg');
   
@@ -30,3 +31,27 @@ p {
   height: 100vh;
 }
 
+.row_icon {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.icon {
+  font-size: 80px;
+}
+.streak {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  background:
+  linear-gradient(    
+    rgba(32, 84, 147, 0.5),
+    rgba(32, 84, 147, 0.75)
+  ),
+  url('http://res.cloudinary.com/dfw7rvsrn/image/upload/v1520511327/christopher-gower-291246-unsplash_exk6fz.jpg');
+  
+    
+}
